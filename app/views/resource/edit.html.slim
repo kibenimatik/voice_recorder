@@ -1,0 +1,8 @@
+.panel.panel-default
+  .panel-body
+    = render 'form'
+  .panel-footer
+    .btn-toolbar.pull-right
+      = show_button(@show_scope.presence || @resource)
+      = back_button(@back_scope.presence || { action: 'index' })
+    .clearfix

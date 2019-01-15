@@ -1,0 +1,15 @@
+nav.navbar.navbar-default.navbar-static-top role="navigation" style="margin-bottom: 0"
+  .navbar-header
+    button.navbar-toggle data-target=".navbar-collapse" data-toggle="collapse" type="button"
+      span.sr-only Toggle navigation
+      span.icon-bar
+      span.icon-bar
+      span.icon-bar
+    = link_to 'Voice Recorder', root_path, class: 'navbar-brand'
+
+  / .navbar-default.sidebar role="navigation"
+  /   .sidebar-nav.navbar-collapse
+  /     ul#side-menu.nav
+  /       li = link_to root_path do
+  /         i.fa.fa-dashboard.fa-fw
+  /         | Dashboard

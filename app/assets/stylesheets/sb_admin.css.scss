@@ -1,0 +1,13 @@
+/*
+ *= require startbootstrap-sb-admin-2/vendor/bootstrap/css/bootstrap.min.css
+ *= require startbootstrap-sb-admin-2/vendor/metisMenu/metisMenu.min.css
+ *= require startbootstrap-sb-admin-2
+ *= require startbootstrap-sb-admin-2/vendor/morrisjs/morris.css
+*/
+
+.btn-toolbar .btn{
+    margin-right: 1px;
+}
+.btn-toolbar .btn:last-child{
+    margin-right: 0;
+}
