@@ -1,0 +1,17 @@
+.panel.panel-default
+  .panel-heading
+  .panel-body
+    table.table.table-stripped
+      thead
+        tr
+          th Date
+          th
+          th
+      tbody
+        - @recordings.each do |recording|
+          tr
+            td = recording.created_at.to_s(:short)
+            td = audio_tag(recording.audio_url, controls: true)
+            td
+              .btn-toolbar
+                = destroy_button(recording)

@@ -11,10 +11,5 @@
 // about supported directives.
 //
 
-//= require startbootstrap-sb-admin-2/vendor/jquery/jquery.min.js
-//= require startbootstrap-sb-admin-2/vendor/bootstrap/js/bootstrap.min.js
-//= require startbootstrap-sb-admin-2/vendor/metisMenu/metisMenu.min.js
-//= require startbootstrap-sb-admin-2
-
-//= require rails-ujs
-//= require_tree .
+//= require recorderjs-rails/recorder
+//= require home

@@ -7,9 +7,12 @@ nav.navbar.navbar-default.navbar-static-top role="navigation" style="margin-bott
       span.icon-bar
     = link_to 'Voice Recorder', root_path, class: 'navbar-brand'
 
-  / .navbar-default.sidebar role="navigation"
-  /   .sidebar-nav.navbar-collapse
-  /     ul#side-menu.nav
-  /       li = link_to root_path do
-  /         i.fa.fa-dashboard.fa-fw
-  /         | Dashboard
+  .navbar-default.sidebar role="navigation"
+    .sidebar-nav.navbar-collapse
+      ul#side-menu.nav
+        li = link_to root_path do
+          i.fa.fa-dashboard.fa-fw
+          | Home
+        li = link_to recordings_path do
+          i.fa.fa-play.fa-fw
+          | Recordings

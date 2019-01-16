@@ -1,1 +1,16 @@
-h3 Welcome
+h3 Voice recorder
+
+.panel.panel-default
+  .row
+    .col-lg-6.my-1
+      button#recordButton.btn.btn-danger
+        i.fa.fa-record
+        |&nbsp;Record
+      button#pauseButton.btn.btn-default.hidden disabled="disabled"
+        i.fa.fa-pause
+        |&nbsp;Pause
+      button#stopButton.btn.btn-default disabled="disabled"
+        i.fa.fa-stop
+        |&nbsp;Stop
+
+      #recordingsList

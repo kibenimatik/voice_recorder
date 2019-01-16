@@ -8,9 +8,12 @@ gem 'bootsnap', '>= 1.1.0', require: false
 gem 'puma', '~> 3.11'
 gem 'rails', '~> 5.2.2'
 
+gem 'aws-sdk-s3', '~> 1.2'
+gem 'shrine', '~> 2.0'
 gem 'slim-rails'
 
 gem 'coffee-rails', '~> 4.2'
+gem 'recorderjs-rails', github: 'kibenimatik/recorderjs-rails'
 gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
 

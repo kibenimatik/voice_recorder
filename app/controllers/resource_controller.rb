@@ -8,7 +8,6 @@ class ResourceController < ApplicationController
 
     @collection = resource_scope.all
     instance_variable_set("@#{resource_collection_name}", @collection)
-    instance_variable_set("@#{scaffold_collection_name}", @collection)
   end
 
   def new
@@ -65,7 +64,6 @@ class ResourceController < ApplicationController
 
   def set_resource_variable!
     instance_variable_set("@#{resource_instance_name}", @resource)
-    instance_variable_set("@#{scaffold_instance_name}", @resource)
   end
 
   def resource_instance_name
