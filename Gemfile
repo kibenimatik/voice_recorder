@@ -16,6 +16,7 @@ gem 'coffee-rails', '~> 4.2'
 gem 'recorderjs-rails', github: 'kibenimatik/recorderjs-rails'
 gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
+gem 'platform-api'
 
 group :development do
   gem 'annotate', require: false

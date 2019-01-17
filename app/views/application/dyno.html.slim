@@ -1,0 +1,16 @@
+h3 Current Dyno info
+
+.panel.panel-default
+  .row
+    dl.dl-horizontal
+      dt Created at
+      dd = Time.parse(@dyno['created_at']).to_s(:long)
+      dt Updated at
+      dd = Time.parse(@dyno['created_at']).to_s(:long)
+      dt Current time
+      dd = Time.zone.now.to_s(:long)
+      dt State
+      dd = @dyno['state']
+
+  = link_to 'Raise exception!', '/r5t', class:'btn btn-danger'
+
