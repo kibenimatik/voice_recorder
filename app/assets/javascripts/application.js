@@ -11,5 +11,5 @@
 // about supported directives.
 //
 
-//= require recorderjs-rails/recorder
-//= require home
+//= require startbootstrap-sb-admin-2/vendor/jquery/jquery.min.js
+//= require rails-ujs
